@@ -6,6 +6,8 @@ A simple nginx container that serves Single Page Applications:
 
 [Docker Hub](https://hub.docker.com/r/iamfreee/docker-nginx-static-spa/)
 
+Very small size: ~7 MB (alpine based). Uses about 2 MB RAM when running.
+
 ## Instructions
 
 **Dockerfile:**
