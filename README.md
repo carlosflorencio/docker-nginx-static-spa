@@ -11,7 +11,7 @@ A simple nginx container that serves Single Page Applications:
 **Dockerfile:**
 ```
 FROM iamfreee/docker-nginx-static-spa:latest
-COPY /dist /usr/share/nginx/html
+COPY /dist /var/www/html
 ```
 
 In the example above, the production build of the app is in the local `dist` folder and is moved to the default nginx serve path to be served.
